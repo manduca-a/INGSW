@@ -1,0 +1,14 @@
+git init   ->    per inizializzare un directory git
+
+git status   ->    per controllare
+
+git add nomefile   ->   per mettere file nella staging area, se voglio aggiungerne molti posso fare git add -A  quindi all
+
+git restore   ->   ripristina il file al precedente commit
+
+git remote add "repository name" "repository link"  ->   specifica in quale repository si lavorerà, e quindi dove andrà fatto il push
+
+
+git push "repository name" "branch name"   ->   caricherà il progetto nella cartella git remota
+
+git pull "repository name" "branch name"   ->   scaricherà dalla repository remota
